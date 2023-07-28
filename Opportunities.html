@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <title>NINTENDO OPPORTUNITIES</title>
+        <link rel="shortcut icon" href="WhatsApp Image 2023-07-28 at 17.51.29.jpeg" type="image/x-icon">
+        <link rel="stylesheet" type="text/css" href="style.css">  
+    </head>
+<body>
+    <div class="topnav">
+        <a href="index.html">COMPANY BACKGROUND</a>
+        <a href="Branding.html">BRANDING</a>
+        <a href="Market Position.html">MARKET POSITION</a>
+        <a href="Market Segementation.html">MARKET SEGMENTATION</a>
+        <a href="Opportunities.html">OPPORTUNITIES</a>
+        <a href="Product.html">PRODUCT</a>
+        <a href="Swot Analysis.html">SWOT ANALYSIS</a>
+        <a href="Competitor.html">COMPETITOR</a>
+    </div>
+<section class="home" id="home">
+
+    <div class="content">
+        <h1>OPPORTUNITIES FOR IMPROVEMENT</h1>
+        <h6>Nintendo: An example of a trustworthy brand<h6></h6>
+    </div>
+
+    <div class="image">
+        <img src="28005-5-nintendo-characters-file.png">
+    </div>
+
+</section>
+    <div class="card">
+        <div class="tile">
+                <img src="WhatsApp Image 2023-07-28 at 17.53.17 (1).jpeg" alt="Expansion into emerging markets">
+            <div class="tile-content content1">
+                <h3><b>Switch Needs Strong Third-Party Support</b></h3>
+                <p>
+                    To ensure the Switch's longevity and success, Nintendo needs good third-party developer support. Yes, we've all seen the fancy graphic featuring dozens of developers on board with the Switch. Sadly, this means very little, as Wii U boasted similar partnerships prior to the system's launch. Third-party Wii U support dwindled a few months after the system was released, and companies like EA abandoned Wii U software development entirely.
+                </p>
+            </div>
+            <div class="read-more-btn" onclick="toggleContent('content1')">Read More</div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="tile">
+                <img src="WhatsApp Image 2023-07-28 at 17.53.17.jpeg" alt="Switch Needs Modern Online Functionality">
+            <div class="tile-content content2">
+                <h3><b>Switch Needs Modern Online Functionality</b></h3>
+                <p>
+                    One glaring issue is the bizarre monthly game download, which lets subscribers download one NES or SNES classic title for free, for a month. The caveat, however, is that you don't get to keep it after that month is over. This is only worsened by the fact that these games are several generations old and easily obtained online via emulators. Sony and Microsoft both give you a selection of games to download and keep so long as you keep your subscription active. Sure, these monthly offerings aren't technically free either, but it's a nice perk, especially since you're paying for online connectivity anyway.
+                </p>
+            </div>
+            <div class="read-more-btn" onclick="toggleContent('content2')">Read More</div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="tile">
+                <img src="WhatsApp Image 2023-07-28 at 17.53.18.jpeg" alt="Switch Needs a Bundled Game">
+            <div class="tile-content content3">
+                <h3><b>Switch Needs a Bundled Game</b></h3>
+                <p>
+                  1-2-Switch is a party game that utilizes the Switch's portability, as well as the two Joy-Con controllers for competitive dueling and party-style challenges. This makes 1-2-Switch the ideal candidate for a bundled game, but Nintendo has opted to sell the game separately and for $50, no less. The tremendous success of Wii Sports, even in regions where the game was not bundled with the system, is very likely coloring Nintendo's decision to sell 1-2-Switch independently. Nonetheless, the game's quirky humor, silly mini games, and Switch-exclusive tech would be better suited as a bundled title rather than a standalone game.
+                </p>
+            </div>
+            <div class="read-more-btn" onclick="toggleContent('content3')">Read More</div>
+        </div>
+    </div>
+
+    <script>
+        function toggleContent(cardId) {
+            var content = document.querySelector('.tile-content.' + cardId);
+            var btn = document.querySelector('.card .' + cardId + ' .read-more-btn');
+
+            if (content.style.display === 'none') {
+                content.style.display = 'block';
+                btn.innerText = 'Read Less';
+            } else {
+                content.style.display = 'none';
+                btn.innerText = 'Read More';
+            }
+        }
+    </script>
+</body>
+</html>

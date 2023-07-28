@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <title>NINTENDO MARKET POSITION</title>
+        <link rel="shortcut icon" href="WhatsApp Image 2023-07-28 at 17.51.29.jpeg" type="image/x-icon">
+        <link rel="stylesheet" type="text/css" href="style.css">  
+    </head>
+<body>
+    <div class="topnav">
+        <a href="index.html">COMPANY BACKGROUND</a>
+        <a href="Branding.html">BRANDING</a>
+        <a href="Market Position.html">MARKET POSITION</a>
+        <a href="Market Segementation.html">MARKET SEGMENTATION</a>
+        <a href="Opportunities.html">OPPORTUNITIES</a>
+        <a href="Product.html">PRODUCT</a>
+        <a href="Swot Analysis.html">SWOT ANALYSIS</a>
+        <a href="Competitor.html">COMPETITOR</a>
+    </div>
+    <section class="home" id="home">
+
+        <div class="content">
+            <h1>MARKET POSITION</h1>
+            <h6>Nintendo: An example of a trustworthy brand<h6>
+        </div>
+    
+        <div class="image">
+            <img src="28007-5-nintendo-characters-photos.png" alt="">
+        </div>
+    
+    </section>
+
+  <div class="card">
+    <div class="tile">
+            <img src="WhatsApp Image 2023-07-28 at 17.54.55.jpeg" alt="Console Gaming">
+        </a>
+        <div class="tile-content content1">
+            <h3><b>Console Gaming</b></h3>
+            <p>
+            Nintendo has a strong presence in the console gaming market. Its flagship consoles, such as the Nintendo Switch, have been highly successful and have attracted a broad audience, including casual gamers, families, and hardcore gaming enthusiasts.
+            </p>
+        </div>
+        <div class="read-more-btn" onclick="toggleContent('content1')">Read More</div>
+    </div>
+</div>
+
+<div class="card">
+    <div class="tile">
+            <img src="WhatsApp Image 2023-07-28 at 17.55.31.jpeg" alt="Exclusive Franchises">
+        </a>
+        <div class="tile-content content2">
+            <h3><b>Exclusive Franchises</b></h3>
+            <p>
+                 Nintendo's game franchises, such as Mario, The Legend of Zelda, and Pokémon, are iconic and have a massive global fanbase. These exclusive titles are major drivers of sales for Nintendo's consoles and contribute to the company's market position.
+            </p>
+        </div>
+        <div class="read-more-btn" onclick="toggleContent('content2')">Read More</div>
+    </div>
+</div>
+
+<div class="card">
+    <div class="tile">
+            <img src="nintendo-1.jpg" alt="Handheld Gaming">
+        </a>
+        <div class="tile-content content3">
+            <h3><b>Handheld Gaming</b></h3>
+            <p>
+             Nintendo has historically been a dominant player in the handheld gaming market with its Game Boy and Nintendo DS series. While the handheld market has seen some decline due to the rise of mobile gaming, Nintendo's handheld gaming devices have remained popular.
+            </p>
+        </div>
+        <div class="read-more-btn" onclick="toggleContent('content3')">Read More</div>
+    </div>
+</div>
+
+<script>
+    function toggleContent(cardId) {
+        var content = document.querySelector('.tile-content.' + cardId);
+        var btn = document.querySelector('.card .' + cardId + ' .read-more-btn');
+
+        if (content.style.display === 'none') {
+            content.style.display = 'block';
+            btn.innerText = 'Read Less';
+        } else {
+            content.style.display = 'none';
+            btn.innerText = 'Read More';
+        }
+    }
+</script>
+</body>
+</html>
